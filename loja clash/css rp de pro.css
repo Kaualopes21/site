@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'clash royale';
+    src: url('You Blockhead.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+  body {
+    font-family: 'clash royale', Helvetica, sans-serif
+    
+  }
+  h1 {
+    font-family: 'clash royale', Times, serif;
+}
+
+
+
+.retangulo-preto {
+    background-color: black;
+    height: 100px; /* Ajuste a altura conforme necessário */
+    width: 100%; /* O retângulo se estenderá por toda a largura do site */
+    justify-content: center;
+  } 
+  .texto-branco {
+    color: rgb(255, 208, 0);
+    text-align: center;
+    line-height: 99px; /* Ajuste conforme a altura do retângulo */
+    margin: 0;
+    text-align: center;
+   
+  }
+  .imagem-lateral {
+    width: 100px; /* Ajuste a largura conforme necessário */
+    height: auto; /* A altura será ajustada proporcionalmente à largura */
+    float: left; /* A imagem será flutuada à esquerda do texto */
+    margin-right: 0; /* Ajuste a margem conforme necessário para separar as imagens do texto */
+    margin-top: 0px;
+  }
+  .imagem-lateral-direita {
+    float: right;
+    margin-top: -99px;
+  }
+  .imagem-coringa-comun2{
+    position: relative;
+    left: 20px
+    toP: 10px
+  }
+    
+  @keyframes changeBackground {
+    0% {
+        background-color: lightblue;
+    }
+    20% {
+        background-color: orange;
+    }
+    40% {
+        background-color: purple;
+    }
+    60% {
+        background-color: white;
+    }
+    80% {
+        background-color: red;
+    }
+    100% {
+        background-color: lightblue;
+    }
+}
+
+body {
+    animation: changeBackground 20s linear infinite; /* Altera a cor do fundo a cada 20 segundos */
+}

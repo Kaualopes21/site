@@ -1,0 +1,73 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    width: 100px; /* Altere o tamanho conforme necessário */
+    height: 100px; /* Altere o tamanho conforme necessário */
+}
+
+@keyframes changeBackground {
+    0% {
+        background-color: rgb(15, 110, 213);
+    }
+    20% {
+        background-color: orange;
+    }
+    40% {
+        background-color: purple;
+    }
+    60% {
+        background-color: white;
+    }
+    80% {
+        background-color: red;
+    }
+    100% {
+        background-color: rgb(57, 0, 242);
+    }
+  }
+  body {
+    animation: changeBackground 20s linear infinite; /* Altera a cor do fundo a cada 20 segundos */
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+img {
+    width: 100px; /* Altere o tamanho conforme necessário */
+    height: 100px; /* Altere o tamanho conforme necessário */
+}
+
+.comprar-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.comprar-button:hover {
+    background-color: red;
+}

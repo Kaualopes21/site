@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'clash royale';
+    src: url('You Blockhead.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'clash royale', Helvetica, sans-serif
+    
+    
+  }
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.error-message {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.gif {
+    width: 300px; /* Defina a largura desejada para o seu GIF */
+    height: 400px; /* Defina a altura desejada para o seu GIF */
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.button {
+    background-color: #007bff; /* Azul */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ff0000; /* Vermelho ao passar o mouse */
+}
+
+@keyframes changeBackground {
+    0% {
+        background-color: rgb(15, 110, 213);
+    }
+    20% {
+        background-color: orange;
+    }
+    40% {
+        background-color: purple;
+    }
+    60% {
+        background-color: white;
+    }
+    80% {
+        background-color: red;
+    }
+    100% {
+        background-color: rgb(57, 0, 242);
+    }
+  }
+  body {
+    animation: changeBackground 20s linear infinite; /* Altera a cor do fundo a cada 20 segundos */
+  }

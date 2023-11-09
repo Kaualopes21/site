@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css menu.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="retangulo-preto"> 
+        <img src="coroa.jfif" alt="Imagem 1" class="imagem-lateral">
+        <h1 class="texto-branco">novidades</h1> 
+        <img src="coroa.jfif" alt="Imagem 2" class="imagem-lateral imagem-lateral-direita" >
+    </div>  
+    <p> PAgina PrinciPal</p> <a href="MENU.html" class="link-esecial">menu</a>
+     
+</body>
+</html>
